@@ -1,4 +1,4 @@
-# regular expression editor written on C#
+# regular expression editor written on CSharp
 (MIT license)
 
 #DOWNLOAD
