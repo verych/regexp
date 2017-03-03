@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Hello %username%, 
+my name is Roman Veremyov.
+Welcome to my RegExp editor.
+
+I have created very usefull and simple editor for myself but I know that you will happy to use it.
+
+If you have some problems then you can get help in "Smart Help" section. Also, you can see "Examples" of regular expressions.
+
+Best regards,
+Roman Veremyov.
+regexp@verych.ru</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>\w - Matches any word character (alphanumeric &amp; underscore).
+\W - Matches any character that is not a word character (alphanumeric &amp; underscore).
+\d - Matches any digit character (0-9).
+\D - Matches any character that is not a digit character (0-9).
+\s - Matches any whitespace character (spaces, tabs, line breaks).
+\S - Matches any character that is not a whitespace character (spaces, tabs, line breaks).
+\b - Matches a word boundary position such as whitespace or the beginning or end of the string.
+\B - Matches any position that is not a word boundary.
+^ - Matches the beginning of the string.
+$ - Matches the end of the string.
+
+? - Makes the preceeding token optional. It will match 0 or 1 of the preceeding token.
+* - Matches 0 or more of the preceeding token. This is a greedy match, and will match as many characters as possible before satisfying the next token.
+*? - Matches 0 or more of the preceeding token. This is a lazy match, and will match as few characters as possible before satisfying the next token.
++ - Matches 1 or more of the preceeding token. This is a greedy match, and will match as many characters as possible before satisfying the next token.
++? - Matches 0 or more of the preceeding token. This is a lazy match, and will match as few characters as possible before satisfying the next token.
+{7} - Matches exactly 7 of the preceeding token.
+{4,7} - Matches 4 to 7 of the preceeding token. This is a greedy match, and will match as many characters as possible before satisfying the next token.
+{4,7}? - Matches 4 to 7 of the preceeding token. This is a lazy match, and will match as few characters as possible before satisfying the next token.
+
+(ABC) - Groups multiple tokens together. This allows you to apply quantifiers to the full group. This creates a capturing group (roll over a match highlight to see capture group results).
+(?:ABC) - Groups multiple tokens together without creating a capturing group. This allows you to apply quantifiers to the full group.
+
+| - Alternation. Equivalent of "or". Matches the full expression before or after the |.
+
+$$ - An escaped $ symbol.
+$&amp; - Inserts the matched substring.
+$` - Inserts the portion of the string that precedes the match.
+$' - Inserts the portion of the string that follows the match.
+$1 - Inserts the result of the first capture group.
+
+
+(?=ABC) - Positive lookahead. Matches a group after your main expression without including it in the result.
+(?!ABC) - Negative lookahead. Specifies a group that can not match after your main expression (ie. if it matches, the result is discarded).
+(?&lt;=ABC) - Positive lookbehind. Matches a group before your main expression without including it in the result.
+(?&lt;!ABC) - Negative lookbehind. Specifies a group that can not match before your main expression (ie. if it matches, the result is discarded).
+
+
+[ABC] - Match any single character in the set.
+[^ABC] - Match any single character that is not in the set.
+[a-z] - Matches any single character in the range a-z.
+[a-zA-Z] - Matches any single character in the range a-z or A-Z.
+[^f-m] - Matches any single character that is not in the range f-m.
+[0-9] - Matches any single character in the range 0-9.
+[\w'-] - Matches any word character, single quote, or hyphen.
+\t - Tab.
+\r - Carriage return.
+\n - Line break.
+\xFF - Specify a character by its hexadecimal index.
+\\ - Matches a \ character.
+\. - Matches a . character (also: + * ? ^ $ [ ] ( ) | { } / ' # ).</value>
+  </data>
+  <data name="treeNode1.ToolTipText" xml:space="preserve">
+    <value>does not allow IP for domain name : hello@154.145.68.12 does not allow litteral addresses &amp;quot;hello, how are you?&amp;quot;@world.com allows numeric domain names after the last &amp;quot;.&amp;quot; minimum 2 letters</value>
+  </data>
+  <data name="treeNode2.ToolTipText" xml:space="preserve">
+    <value>Validates 1 or more email addresses. Email addresses can be delimited with either comma or semicolon. White space is allowed after delimiter, but not necessary. I needed this to allow my users to specify multiple email addresses if they choose to do so.</value>
+  </data>
+  <data name="treeView1.Nodes" xml:space="preserve">
+    <value>^((?&gt;[a-zA-Z\d!#$%&amp;'*+\-/=?^_`{|}~]+\x20*|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*"\x20*)*(?&lt;angle&gt;&lt;))?((?!\.)(?&gt;\.?[a-zA-Z\d!#$%&amp;'*+\-/=?^_`{|}~]+)+|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*")@(((?!-)[a-zA-Z\d\-]+(?&lt;!-)\.)+[a-zA-Z]{2,}|\[(((?(?&lt;!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)&gt;)$</value>
+  </data>
+  <data name="treeNode3.Text" xml:space="preserve">
+    <value>^((?&gt;[a-zA-Z\d!#$%&amp;'*+\-/=?^_`{|}~]+\x20*|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*"\x20*)*(?&lt;angle&gt;&lt;))?((?!\.)(?&gt;\.?[a-zA-Z\d!#$%&amp;'*+\-/=?^_`{|}~]+)+|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*")@(((?!-)[a-zA-Z\d\-]+(?&lt;!-)\.)+[a-zA-Z]{2,}|\[(((?(?&lt;!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)&gt;)$</value>
+  </data>
+  <data name="treeNode4.ToolTipText" xml:space="preserve">
+    <value>Simple email expression. Doesn't allow numbers in the domain name and doesn't allow for top level domains that are less than 2 or more than 3 letters (which is fine until they allow more). Doesn't handle multiple &amp;quot;.&amp;quot; in the domain.</value>
+  </data>
+  <data name="treeNode6.ToolTipText" xml:space="preserve">
+    <value>Checks domain names. This validates domains based on latest specifications (RFCs 952 and 1123 dealing with hostnames and RFC 1035 dealing with domain name system requirements) except that it only includes realistic fully-qualified domains: 1. requires at least one subdomain 2. allows shortest top-level domains like &amp;quot;ca&amp;quot;, and &amp;quot;museum&amp;quot; as longest. Other validation rules: 1. Labels/parts should be seperated by period. 2. Each label/part has maximum of 63 characters. 3. First and last character of label must be alphanumeric, other characters alphanumeric or hyphen. 4. Does not check maxlength of domain which incidentally is 253 characters of text (255 binary representation). For a regular expression that matches ALL domains: ^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)*[a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?$</value>
+  </data>
+  <data name="treeNode7.ToolTipText" xml:space="preserve">
+    <value>Validates a long filename using Windows' rules. Requires one valid filename character other than &amp;quot;.&amp;quot; for the first character and then any number of valid filename characters up to a total length of 255 characters. Unresolved is how to prevent the last character from being a &amp;quot;.&amp;quot; while still meeting all the features that this regex does now.</value>
+  </data>
+  <data name="treeNode10.ToolTipText" xml:space="preserve">
+    <value>I needed a regular expression to break urls into labled parts. This is what I came up with. Got a few ideas from regexlib.com and from this msdn article. http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/reconbackreferences.asp http://www.domain.com/folder does return a match but will not grab the folder name unless there is &amp;quot;/&amp;quot; at the end. http://www.domain.com/folder/</value>
+  </data>
+  <data name="treeView1.Nodes1" xml:space="preserve">
+    <value>\b([\d\w\.\/\+\-\?\:]*)((ht|f)tp(s|)\:\/\/|[\d\d\d|\d\d]\.[\d\d\d|\d\d]\.|www\.|\.tv|\.ac|\.com|\.edu|\.gov|\.int|\.mil|\.net|\.org|\.biz|\.info|\.name|\.pro|\.museum|\.co)([\d\w\.\/\%\+\-\=\&amp;amp;\?\:\\\&amp;quot;\'\,\|\~\;]*)\b</value>
+  </data>
+  <data name="treeNode11.Text" xml:space="preserve">
+    <value>\b([\d\w\.\/\+\-\?\:]*)((ht|f)tp(s|)\:\/\/|[\d\d\d|\d\d]\.[\d\d\d|\d\d]\.|www\.|\.tv|\.ac|\.com|\.edu|\.gov|\.int|\.mil|\.net|\.org|\.biz|\.info|\.name|\.pro|\.museum|\.co)([\d\w\.\/\%\+\-\=\&amp;amp;\?\:\\\&amp;quot;\'\,\|\~\;]*)\b</value>
+  </data>
+  <data name="treeNode15.ToolTipText" xml:space="preserve">
+    <value>This regex match numeric data in the following format: thousands are separated by (') apostrophe, decimal places are separated by dot (.) Maximum three decimal places are not required. It's easy to change to other separators as well.</value>
+  </data>
+  <data name="treeNode17.ToolTipText" xml:space="preserve">
+    <value>This expression will match all of the commands(escape codes) used in ANSI files. These are what were used to create the colors/blocks on BBS's for those of us that once dialed into them. http://www.wikipedia.org/wiki/ANSI_escape_code has a reference for ANSI escape codes. http://idledreams.net/lordscarlet/posts/153.aspx shows an example of the engine I have created surrounding the expression</value>
+  </data>
+  <data name="treeNode19.ToolTipText" xml:space="preserve">
+    <value>Heres my sql clause parser regexp for recordset filtering. Does recursive query parsing all by its self. Only problem I cant figure is how to match comma separated lists of quoted strings. Tell me if you figure out how! The unicodes in the re was put in by the entry form please replace them with their ascii equivalents to use it.</value>
+  </data>
+  <data name="treeNode21.ToolTipText" xml:space="preserve">
+    <value>Credit card validator Works for switch card numbers too Switch card bit is (\d{6}[-\s]?\d{12}) Credit card bit is (\d{4}[-\s]?\d{4}[-\s]?\d{4}[-\s]?\d{4}) I use this as a client side test before running a more comprehensive server side check.</value>
+  </data>
+  <data name="treeView1.Nodes2" xml:space="preserve">
+    <value>^(((0?[1-9]|[12]\d|3[01])[\.\-\/](0?[13578]|1[02])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}|\d))|((0?[1-9]|[12]\d|30)[\.\-\/](0?[13456789]|1[012])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}|\d))|((0?[1-9]|1\d|2[0-8])[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}|\d))|(29[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00|[048])))$</value>
+  </data>
+  <data name="treeNode26.Text" xml:space="preserve">
+    <value>^(((0?[1-9]|[12]\d|3[01])[\.\-\/](0?[13578]|1[02])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}|\d))|((0?[1-9]|[12]\d|30)[\.\-\/](0?[13456789]|1[012])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}|\d))|((0?[1-9]|1\d|2[0-8])[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}|\d))|(29[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00|[048])))$</value>
+  </data>
+  <data name="treeView1.Nodes3" xml:space="preserve">
+    <value>^(((0?[1-9]|[12]\d|3[01])[\.\-\/](0?[13578]|1[02])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|[12]\d|30)[\.\-\/](0?[13456789]|1[012])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|1\d|2[0-8])[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|(29[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00)))$</value>
+  </data>
+  <data name="treeNode27.Text" xml:space="preserve">
+    <value>^(((0?[1-9]|[12]\d|3[01])[\.\-\/](0?[13578]|1[02])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|[12]\d|30)[\.\-\/](0?[13456789]|1[012])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|1\d|2[0-8])[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|(29[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00)))$</value>
+  </data>
+  <data name="treeView1.Nodes4" xml:space="preserve">
+    <value>^(?=\d)(?:(?:31(?!.(?:0?[2469]|11))|(?:30|29)(?!.0?2)|29(?=.0?2.(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))(?:\x20|$))|(?:2[0-8]|1\d|0?[1-9]))([-./])(?:1[012]|0?[1-9])\1(?:1[6-9]|[2-9]\d)?\d\d(?:(?=\x20\d)\x20|$))?(((0?[1-9]|1[012])(:[0-5]\d){0,2}(\x20[AP]M))|([01]\d|2[0-3])(:[0-5]\d){1,2})?$</value>
+  </data>
+  <data name="treeNode28.Text" xml:space="preserve">
+    <value>^(?=\d)(?:(?:31(?!.(?:0?[2469]|11))|(?:30|29)(?!.0?2)|29(?=.0?2.(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))(?:\x20|$))|(?:2[0-8]|1\d|0?[1-9]))([-./])(?:1[012]|0?[1-9])\1(?:1[6-9]|[2-9]\d)?\d\d(?:(?=\x20\d)\x20|$))?(((0?[1-9]|1[012])(:[0-5]\d){0,2}(\x20[AP]M))|([01]\d|2[0-3])(:[0-5]\d){1,2})?$</value>
+  </data>
+  <data name="treeNode28.ToolTipText" xml:space="preserve">
+    <value>DateTime Validator. This RE validates both dates and/or times patterns. Days in Feb. are also validated for Leap years. Dates: in dd/mm/yyyy or d/m/yy format between 1/1/1600 - 31/12/9999. Leading zeroes are optional. Date separators can be either matching dashes(-), slashes(/) or periods(.) Times: in the hh:MM:ss AM/PM 12 hour format (12:00 AM - 11:59:59 PM) or hh:MM:ss military time format (00:00:00 - 23:59:59). The 12 hour time format: 1) may have a leading zero for the hour. 2) Minutes and seconds are optional for the 12 hour format 3) AM or PM is required and case sensitive. Military time 1) must have a leading zero for all hours less than 10. 2) Minutes are manditory. 3) seconds are optional. Datetimes: combination of the above formats. A date first then a time separated by a space. ex) dd/mm/yyyy hh:MM:ss This RE is an variation of one of my other Datetime (mm/dd/yyyy) validator already in this library http://www.regexlib.com/REDetails.aspx?regexp_id=369, so the same rules for leap year apply. All 4 digit year and all two digit years except 00, which might not be a leap year.</value>
+  </data>
+  <data name="treeNode29.ToolTipText" xml:space="preserve">
+    <value>This regex is to validate the time of a ~60 minute CD where the most time on the CD is 59:59 (minutes:seconds). It is derived from Ken Madden's time regex for a project for Erik Porter (Windows/Web guru).</value>
+  </data>
+  <data name="treeNode31.ToolTipText" xml:space="preserve">
+    <value>This is a basic telephone number vaildation which needs a compulsory prefix of a '+' sign with three digits and followed by a hipen, another three digits and finally followed by another hipen and four more digits.</value>
+  </data>
+  <data name="treeNode32.ToolTipText" xml:space="preserve">
+    <value>UK Postal Codes - The code is normally written in capital letters with a space between the outer and inner parts; it is understandable if the space is omitted. This regular expression validates upper or lower case with or without the space</value>
+  </data>
+  <data name="treeNode35.ToolTipText" xml:space="preserve">
+    <value>Peseudo-HTML code matcher. Allows for one parameter within the first tag (name is optional), the value of which can be optionally delimited by either double or single quotes. Uses backreferencing to ensure that the end and start tags match, and that any single or double quotes match. Very useful for web forums or any situation where users may be prompted to enter text for display on a webpage somewhere, as it can be quickly processed into HTML without allowing HTML to be specified within the input itself (which may pose a security risk).</value>
+  </data>
+  <data name="treeView1.Nodes5" xml:space="preserve">
+    <value>(&lt;\/?)(?i:(?&lt;element&gt;a(bbr|cronym|ddress|pplet|rea)?|b(ase(font)?|do|ig|lockquote|ody|r|utton)?|c(aption|enter|ite|(o(de|l(group)?)))|d(d|el|fn|i(r|v)|l|t)|em|f(ieldset|o(nt|rm)|rame(set)?)|h([1-6]|ead|r|tml)|i(frame|mg|n(put|s)|sindex)?|kbd|l(abel|egend|i(nk)?)|m(ap|e(nu|ta))|no(frames|script)|o(bject|l|pt(group|ion))|p(aram|re)?|q|s(amp|cript|elect|mall|pan|t(r(ike|ong)|yle)|u(b|p))|t(able|body|d|extarea|foot|h|itle|r|t)|u(l)?|var))(\s(?&lt;attr&gt;.+?))*&gt;</value>
+  </data>
+  <data name="treeNode36.Text" xml:space="preserve">
+    <value>(&lt;\/?)(?i:(?&lt;element&gt;a(bbr|cronym|ddress|pplet|rea)?|b(ase(font)?|do|ig|lockquote|ody|r|utton)?|c(aption|enter|ite|(o(de|l(group)?)))|d(d|el|fn|i(r|v)|l|t)|em|f(ieldset|o(nt|rm)|rame(set)?)|h([1-6]|ead|r|tml)|i(frame|mg|n(put|s)|sindex)?|kbd|l(abel|egend|i(nk)?)|m(ap|e(nu|ta))|no(frames|script)|o(bject|l|pt(group|ion))|p(aram|re)?|q|s(amp|cript|elect|mall|pan|t(r(ike|ong)|yle)|u(b|p))|t(able|body|d|extarea|foot|h|itle|r|t)|u(l)?|var))(\s(?&lt;attr&gt;.+?))*&gt;</value>
+  </data>
+</root>
